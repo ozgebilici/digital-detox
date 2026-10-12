@@ -14,7 +14,6 @@ Proje, unutulmuş dijital hesapların keşfedilmesini ve kişisel veriler üzeri
 - [Özellikler](#-özellikler)
 - [Nasıl Çalışır?](#-nasıl-çalışır)
 - [Kullanılan Teknolojiler](#️-kullanılan-teknolojiler)
-- [Proje Yapısı](#-proje-yapısı)
 - [Kurulum ve Çalıştırma](#-kurulum-ve-çalıştırma)
 - [Google OAuth ve Gmail API Ayarları](#-google-oauth-ve-gmail-api-ayarları)
 - [Kullanım Kılavuzu](#-kullanım-kılavuzu)
@@ -69,26 +68,6 @@ Uygulama, kullanıcıların dijital ayak izlerini daha bilinçli yönetmelerine 
 | Gmail API | İlgili e-posta bilgilerine erişim |
 | JWT | Token tabanlı kimlik doğrulama |
 | HTML, CSS, JavaScript | Web arayüzü |
-
-## 📁 Proje Yapısı
-
-```text
-digital-detox/
-├── backend/
-│   ├── app/
-│   │   ├── main.py
-│   │   └── ...
-│   ├── requirements.txt
-│   ├── alembic.ini
-│   └── .env.example
-├── frontend/
-│   └── ...
-├── scripts/
-│   ├── generate_keys.py
-│   └── setup_db.py
-├── README.md
-└── .gitignore
-```
 
 *Not: Dosya ağacı, raporda belirtilen temel dosyalara göre hazırlanmıştır. Alt klasör ve dosya adlarını güncel GitHub deposundaki gerçek yapıyla eşleştirmen gerekir.*
 
